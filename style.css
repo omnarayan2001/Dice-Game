@@ -1,0 +1,36 @@
+body {
+    background-color:#31304D;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+    color:#29ADB2;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+p {
+    color: #29ADB2;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+}
